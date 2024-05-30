@@ -10,3 +10,9 @@ library(lterdatasampler) #data
 library(ggeffects) #for modeling
 library(here) #for file pathing
 ```
+
+Reading in data:
+```{r}
+data(pie_crab)
+```
+

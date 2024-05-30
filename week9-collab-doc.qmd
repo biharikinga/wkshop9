@@ -48,3 +48,9 @@ For each 1º increase in latitude, we expect crab size to increase by 0.485 ±
 
 Model Statistics: F(1,390) = 208.5,p < 0.001, alpha = 0.05, R^2^ = 0.35
 
+general notes abt collab:
+1. always save changes, commit/push!
+2. comment code so ppl know what ur doing
+3. TALK to collaborators!!!!
+4. always pull before start working in code!!!!
+

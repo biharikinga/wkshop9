@@ -16,3 +16,14 @@ Reading in data:
 data(pie_crab)
 ```
 
+Visualizing data:
+```{r}
+ggplot(data = pie_crab, #using pie_crab data
+       aes(x = latitude, #latitude on x axis
+       y = size)) + #size on y axis
+  geom_point(color = "blue1") + #scatterplot with blue points
+  labs(x = "Latitude", #update axes labels
+       y = "Size") +
+  theme_minimal() #update theme
+```
+

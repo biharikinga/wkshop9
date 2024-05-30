@@ -34,4 +34,17 @@ crab_model <- lm(size ~ latitude, # formula(response ~ predictor)
 par(mfrow = c(2, 2)) # display plots in 2x2 grid
 plot(crab_model) # plot diagnostics
 ```
+Run & interpret model
+```{r}
+summary(crab_model) #look at model
+```
+Summarize results
+
+slope = 0.485
+y-int = -3.62 ± 1.274
+
+For each 1º increase in latitude, we expect crab size to increase by 0.485 ± 
+0.034 mm.
+
+Model Statistics: F(1,390) = 208.5,p < 0.001, alpha = 0.05, R^2^ = 0.35
 
